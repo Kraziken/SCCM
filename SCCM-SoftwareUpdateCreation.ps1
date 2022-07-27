@@ -47,8 +47,8 @@ If ($Updatepath -eq $False)
 
 # Powershell CSI SCCM environment 
 # Site configuration
-$SiteCode = "3MD" # Site code 
-$ProviderMachineName = "VS-SCCM-2016.3MD.local" # SMS Provider machine name
+$SiteCode = "SITE" # Site code 
+$ProviderMachineName = "SCCMSERVER" # SMS Provider machine name
 
 # Customizations
 $initParams = @{}
